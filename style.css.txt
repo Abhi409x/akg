@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  text-align: center;
+  background: url("bg.jpg") no-repeat center/cover;
+  overflow: hidden;
+}
+
+.main {
+  padding-top: 50px;
+}
+
+.title {
+  color: hotpink;
+  font-size: 24px;
+}
+
+/* GIFT */
+.gift {
+  font-size: 50px;
+  cursor: pointer;
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  50% { transform: translateY(-10px); }
+}
+
+/* ENVELOPE */
+.envelope {
+  width: 200px;
+  height: 120px;
+  background: pink;
+  margin: 20px auto;
+  display: none;
+  position: relative;
+  border-radius: 10px;
+}
+
+.letter {
+  position: absolute;
+  top: -50px;
+  left: 20px;
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  transform: scale(0);
+  transition: 1s;
+}
+
+/* CARD */
+.card {
+  display: none;
+  background: white;
+  width: 250px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 15px;
+  transform: scale(0);
+  transition: 1s;
+}
+
+/* SLIDESHOW */
+.slideshow {
+  display: none;
+  margin-top: 20px;
+}
+
+#slideImg {
+  width: 250px;
+  border-radius: 15px;
+  opacity: 0;
+  transition: 1s;
+}
+
+#slideImg.show {
+  opacity: 1;
+}
+
+/* blinking cursor */
+.cursor {
+  display: inline-block;
+  width: 2px;
+  background: black;
+  margin-left: 5px;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 50%, 100% { opacity: 1; }
+  25%, 75% { opacity: 0; }
+}

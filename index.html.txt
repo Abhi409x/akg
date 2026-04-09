@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Riya ❤️</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="main">
+
+  <!-- TEXT -->
+  <h1 class="title">Hey! Beautiful I have surprise for you 💖</h1>
+
+  <!-- GIFT -->
+  <div class="gift" onclick="openGift()">🎁</div>
+
+  <!-- ENVELOPE -->
+  <div class="envelope" id="envelope">
+    <div class="letter">Happy Birthday Riya ❤️</div>
+  </div>
+
+  <!-- CARD -->
+  <div class="card" id="card">
+    <h2>Happy Birthday Riya ❤️</h2>
+    <p>With all my love 💖</p>
+  </div>
+
+  <!-- SLIDESHOW -->
+  <div class="slideshow" id="slideshow">
+    <img id="slideImg" src="photo1.jpg">
+  </div>
+
+</div>
+
+<audio id="music" src="music.mp3"></audio>
+
+<script src="script.js"></script>
+
+</body>
+</html>
